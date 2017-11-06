@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 声明属性级的名称 -->
+    <declare-styleable name="SelectPointView">
+        <!-- 声明一个属性，整型 -->
+        <!-- 声明一个属性，字符串 -->
+        <!-- 声明一个属性，引用，引用资源id -->
+        <!-- 小圆点的个数 -->
+        <attr name="pointcount" format="integer"/>
+        <!-- 被选中圆点有资源图片 -->
+        <attr name="selectpic" format="reference"/>
+        <!-- 未被选中小圆点的资源图片 -->
+        <attr name="unselectpic" format="reference"/>
+    </declare-styleable>
+</resources>
